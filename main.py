@@ -19,7 +19,7 @@ window.title("YaTL - Yet another ToDoList")
 
 db = mysql.connector.connect(host ='localhost',
                              user = 'root',
-                             password = 'Ahs920812!',   # Change to your own SQL password
+                             password = 'password',   # Change to your own SQL password
                              database = 'db')
 cursor = db.cursor()
 

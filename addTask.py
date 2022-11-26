@@ -23,7 +23,7 @@ def add_db():
     
     db = mysql.connector.connect(host = "localhost",
                                  user = "root",
-                                 password = 'Ahs920812!',
+                                 password = 'password',
                                  database='db')
     cursor = db.cursor()
  
